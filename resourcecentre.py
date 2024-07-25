@@ -40,8 +40,8 @@ class ResourceCenter:
         # Refactor (A): Extract constants for choice integers
         CHOICE_ADD = 1
         CHOICE_VIEW = 2
-        CHOICE_LOAN = 3
-        CHOICE_RETURN = 4
+        CHOICE_LOAN = 
+        CHOICE_RETURN = 
         CHOICE_QUIT = 5
         # Refactor (A): Extract constants for option integers
         OPTION_CAMERA = 1
