@@ -45,7 +45,7 @@ class ResourceCenter:
         CHOICE_QUIT = 5
         # Refactor (A): Extract constants for option integers
         OPTION_CAMERA = 1
-        OPTION_LAPTOP = 
+        OPTION_LAPTOP = 2
 
         #### Menu driven application ####
         # Display menu and obtain menu choices
