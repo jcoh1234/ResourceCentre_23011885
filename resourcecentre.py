@@ -38,7 +38,11 @@ class ResourceCenter:
                 
     def main(self):
         # Refactor (A): Extract constants for choice integers
-        
+        CHOICE_ADD = 1
+        CHOICE_VIEW = 2
+        CHOICE_LOAN = 3
+        CHOICE_RETURN = 4
+        CHOICE_QUIT = 5
         # Refactor (A): Extract constants for option integers
         OPTION_CAMERA = 1
         OPTION_LAPTOP = 2
