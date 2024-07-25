@@ -90,7 +90,7 @@ class Inventory():
             output += "There is no camera to display."
         else:
             for i in self.cameraList:
-                if i.getIsAvailable() == "no":
+                if i.getIsAvailable() == "No":
                     # Refactor (D): Extract duplicate code as __str__()
                     # If __str__() already created, use it.
                     output += str(i)
